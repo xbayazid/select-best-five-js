@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;700&family=Poppins:wght@400;500&display=swap');
+.header{
+    background: linear-gradient(rgba(33, 32, 32, 0.5), rgba(29, 28, 28, 0.5)),url('../images/fcb-cover.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 450px;
+}
+.header-info{
+    width: 50%;
+    margin: 0 auto;
+    padding-top: 10%;
+}
+.header h1{
+    font-family: 'Dancing Script', cursive;
+    color: rgb(237, 255, 36);
+    font-size: 75px;
+    font-weight: 900;
+}
+.btn{
+    width: 100%;
+}
+.card{
+    background-color: black;
+    color: white;
+}
+ol{
+    margin-top: 50px;
+}
+ol li{
+    padding: 15px 0px;
+}
+footer{
+    padding-top: 60px;
+}
+footer p{
+    padding: 100px 0px;
+}
+
+@media screen and (max-width: 786px) {
+    .header-info{
+        width: 85%;
+        padding-top: 30%;
+    }
+    .header h1{
+        font-size: 40px;
+    }
+}
